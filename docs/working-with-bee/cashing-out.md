@@ -158,7 +158,7 @@ If running ./cashout.sh returns nothing, you currently have no uncashed cheques.
 
 - Cashout all cheques worth more than 5 BZZ
 ```bash
-./cashout.sh cashout-all 5
+MIN_AMOUNT=5000000000000000000 ./cashout.sh cashout-all
 ```
 
 :::info
